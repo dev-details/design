@@ -37,6 +37,17 @@ Ground rules:
 - Use a live-document format that supports inline comments, editing without friction, and judicious links.
 - Call out patterns (architecture, software, etc.). They are a shorthand for understanding.
 
+## DACI
+
+The best way to scale architecture processes is with [autonomy](https://blog.devdetails.com/p/autonomy-for-software-architecture). To achieve autonomy, everyone must have clear expectations of everyone's role. [DACI](https://blog.devdetails.com/p/adopting-daci) works well for clarifying roles for the design process. Design needs a clear Driver to own the process.
+
+Use this section to define who will be involved in this design.
+
+- **Driver**: A single Senior/Staff+/Principal Engineer drives the design and is responsible for running the decision-making process. This person will endeavor to understand the project and facilitate stakeholder communication.
+- **Approver**: The goal is to minimize approval needed while eliminating bottlenecks. So the same person can't be the approver for everything. We want to ask 1 or 2 people "we good to go?" and get a quick answer. It's those 1 or 2 peoples' responsibility to ensure things are in order and indeed good-to-go.
+- **Contributors**: This list can get large and unwieldy and may include Architects, Product Managers, UX Designers, Security, Data Engineers, Customer Support, QA, etc. To determine who should be involved, use [Andrew Harmel-Law's Advice Process](https://martinfowler.com/articles/scaling-architecture-conversationally.html#TheMostFundamentalElementDecision-makingViaThex201cadviceProcessx201d): consult people with expertise in the area and everyone meaningfully affected.
+- **Informed**: Inform anyone meaningfully impacted. The Larger the project, the larger the impact.
+
 
 ## Context
 

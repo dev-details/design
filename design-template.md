@@ -1,4 +1,3 @@
-
 # Design Template
 
 This is a design document. We want a lightweight and [autonomous design process](https://blog.devdetails.com/p/autonomy-for-software-architecture). We want "just enough" information for stakeholders to move forward.
@@ -89,7 +88,6 @@ What problem are we trying to solve? This should be oriented around the customer
 
 ### Purpose
 
-
 The **Purpose** explains the benefit this solution will provides to the business. It represents the 'why' of a project by articulating the objectives or problems a business aims to address. These might be strategic goals, like expanding into a new market, operational goals, like improving efficiency, or customer-focused goals, like enhancing user experience.
 
 Business impact is the most crucial consideration of a design. If it does not satisfy the needs of the business, what is the point? For small projects, you can interweave the **Purpose** into **Context** above and remove this heading.
@@ -126,7 +124,6 @@ Use Cases are written from the user’s perspective. If this is a customer facin
 
 ### Functional Requirements
 
-
 Functional requirements represent the 'how' -- how we will solve the customer problem -- not the implementation details. They lay out in detail the functionality that a system, application, or product must have to meet the identified business needs. They describe the features a system must possess and inform how the solution will solve the problem.
 
 Describe what a system should do. For example, an e-commerce website should be able to display product details when a user clicks on a product.
@@ -136,7 +133,6 @@ If you're not sure where to start, look at the Use Cases. Multiple requirements 
 - You SHOULD describe a functional requirement
 
 ### Non-functional Requirements
-
 
 Non-functional requirements, as opposed to functional requirements, specify criteria that can be used to judge the quality of operation of a system, rather than specific behaviors. They are also known as "qualities" of the system. Non-functional requirements are crucial to the success of software and systems because they control attributes such as reliability, performance, security, portability, and usability.
 
@@ -163,11 +159,9 @@ For example:
 - Must use existing infrastructure
 - Must be implemented in Golang
 - Must support Windows 10 through 11
-
 - You MUST list constraints as MUSTs
 
 ### Exclusions
-
 
 Things we are explicitly not doing. It is just important to call out what we're not doing as to call out what we are. If we've explicitly decided not to do something, record what that is and why. 
 
@@ -202,7 +196,6 @@ For the Implementation Details, diagram at the C2 Component Level, C3 Container 
 ### {Topic}
  
 If the solution has different components or aspects, consider breaking them down into subtopics. 
-
   
 - {detail 1}
 
@@ -298,4 +291,3 @@ If the answer is not know, put a todo. All todos should be resolved before movin
 Define domain-specific terminology that's necessary to understand this document. It helps in improving the clarity of the document and ensures all readers are on the same page. If someone asks, “What does that mean?”, you need to define it.
 
 It is best to make links of unclear terms that link to confluence pages that define the terms. We should re-use existing definitions instead of repeating them in every design doc.
-

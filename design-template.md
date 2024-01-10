@@ -187,9 +187,9 @@ For this part of the Solution, diagram at the C1 System Level or C2 Component Le
 
 ### Implementation Details
 
-Provide the details of how the solution will be implemented. This could include information about specific technologies, atypical algorithms, architecture diagrams, or code snippets. Avoid going too deep into low-level specifics.
+Provide the details of how the solution will be implemented. This could include architecture diagrams or information about specific technologies. Avoid code snippets or pseudocode unless this design is for a low-level problem. Avoid going too deep into low-level specifics. Here we want to make sure the implementors understand the problem and direction, while leaving them flexibility to make low-level decisions and adapt when needed. 
 
-For the Implementation Details, diagram at the C2 Component Level, C3 Container Level, or C4 Code Level.
+For the Implementation Details, diagram at the C2 Component Level, C3 Container Level, or C4 Code Level. Sequence diagrams are particularly useful here.
 
 - {detail 1}
 
